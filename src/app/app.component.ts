@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 
+// decorator right below
 @Component({
+  //find selector at index.html
   selector: 'mw-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+//end of decorator
 export class AppComponent {
   firstMediaItem = {
     id: 1,
